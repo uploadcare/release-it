@@ -11,7 +11,7 @@ module.exports = function startReleaseIt(options) {
     github: {
       release: options.githubRelease,
       draft: true,
-      assets: `${options.assetsPath}/*.*`,
+      assets: options.assetsPath ? `${options.assetsPath}/*.*` : undefined,
       tokenRef: options.githubToken,
     },
     npm: {
