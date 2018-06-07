@@ -1,0 +1,19 @@
+{
+  "name": "@uploadcare/release-it",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {},
+  "author": "uploadcare",
+  "license": "MIT",
+  "bin": {
+    "release-it": "./src/cli.js"
+  },
+  "devDependencies": {
+    "eslint-config-uploadcare": "^1.1.0"
+  },
+  "dependencies": {
+    "archiver": "^2.1.1",
+    "gh-pages": "^1.2.0",
+    "release-it": "^7.4.7"
+  }
+}
