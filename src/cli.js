@@ -10,7 +10,7 @@ const deployDemo = require('./deployDemo')
 
 const defaultOptions = {
   archiveName: undefined,
-  buildCommand: 'npm run build',
+  buildCommand: undefined,
   githubRelease: true,
   npmPublish: true,
   deployRelease: true,
