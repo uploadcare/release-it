@@ -36,7 +36,7 @@ if (!options.archiveName) {
   options[archiveName] = archiveName
 }
 
-;(async () => {
+;(async() => {
   await startReleaseIt(options)
 
   if (options.deployDemo) {

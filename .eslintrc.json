@@ -2,9 +2,12 @@
   "extends": ["uploadcare"],
   "plugins": [],
   "parserOptions": {
-    "ecmaVersion": 6,
+    "ecmaVersion": 8,
     "sourceType": "module"
   },
   "env": { "node": true },
-  "rules": {}
+  "rules": {
+    "require-jsdoc": "off",
+    "no-console": "off"
+  }
 }

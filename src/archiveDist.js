@@ -29,7 +29,7 @@ function createTarArchive(tmpDir, name) {
   archive.finalize()
 }
 
-module.exports = function createArchives(name) {
+module.exports = function(name) {
   const tmpDir = fs.mkdtempSync(path.join(os.tmpdir(), 'archives-'))
 
   createZipArchive(tmpDir, name)

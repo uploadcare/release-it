@@ -1,9 +1,11 @@
 const ghpages = require('gh-pages')
 const path = require('path')
 
-module.exports = function deployRelease(src = './dist/') {
+module.exports = function(src = './dist/') {
   const distPath = path.resolve(process.cwd(), src)
+
   console.log(distPath)
+
   return new Promise((res, rej) =>
     ghpages.publish(
       distPath,
@@ -15,7 +17,8 @@ module.exports = function deployRelease(src = './dist/') {
         if (err) {
           console.error('Release branch push failed', err)
           rej(err)
-        } else {
+        }
+        else {
           console.log('Release branch pushed')
           res()
         }
