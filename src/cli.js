@@ -25,7 +25,7 @@ const options = fs.existsSync(optionsPath)
   ? Object.assign(defaultOptions, JSON.parse(fs.readFileSync(optionsPath)))
   : defaultOptions
 
-if (options.githubRelease || options.deployRelease) {
+if (options.createArchives) {
   options['assetsPath'] = archiveDist(options.archiveName)
 }
 

@@ -38,6 +38,7 @@ Possible options:
   "archiveName": "uploadcare-plugin",
   "buildCommand": "npm run build",
   "githubRelease": true,
+  "createArchives": true,
   "npmPublish": true,
   "deployRelease": true,
   "deployDemo": true,
