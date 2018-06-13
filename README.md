@@ -35,13 +35,13 @@ touch .release-it.json
 Possible options:
 ```json
 {
-  archiveName: 'uploadcare-plugin',
-  buildCommand: 'npm run build',
-  githubRelease: true,
-  npmPublish: true,
-  deployRelease: true,
-  deployDemo: true,
-  dryRun: false,
+  "archiveName": "uploadcare-plugin",
+  "buildCommand": "npm run build",
+  "githubRelease": true,
+  "npmPublish": true,
+  "deployRelease": true,
+  "deployDemo": true,
+  "dryRun": false
 }
 ```
 
