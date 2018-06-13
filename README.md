@@ -67,10 +67,10 @@ To start deploy
 ```
 
 [release-it]: https://github.com/webpro/release-it
-[badge-release-img]: https://img.shields.io/github/release/uploadcare/uploadcare-release-it.svg
-[badge-release-url]: https://github.com/uploadcare/uploadcare-release-it/releases
+[badge-release-img]: https://img.shields.io/github/release/uploadcare/release-it.svg
+[badge-release-url]: https://github.com/uploadcare/release-it/releases
 [badge-stack-img]: https://img.shields.io/badge/tech-stack-0690fa.svg?style=flat
 [badge-stack-url]: https://stackshare.io/uploadcare/stacks/
-[npm-img]: http://img.shields.io/npm/v/uploadcare-release-it.svg
-[npm-url]: https://www.npmjs.org/package/uploadcare-release-it
+[npm-img]: http://img.shields.io/npm/v/@uploadcare/release-it.svg
+[npm-url]: https://www.npmjs.org/package/@uploadcare/release-it
 [gh-pages]: https://github.com/tschaub/gh-pages
