@@ -1,8 +1,15 @@
 # Release-it for Uploadcare
 
+<a href="https://uploadcare.com/?utm_source=github&utm_campaign=uploadcare-ckeditor">
+    <img align="right" width="64" height="64"
+         src="https://ucarecdn.com/2f4864b7-ed0e-4411-965b-8148623aa680/uploadcare-logo-mark.svg"
+         alt="">
+</a>
+
 This is a tool used to deploy our projects.
 
 [![GitHub release][badge-release-img]][badge-release-url]&nbsp;
+[![Uploadcare stack on StackShare][badge-stack-img]][badge-stack-url]
 
 ## Requirements
 
@@ -58,5 +65,8 @@ To start deploy
 ./node_modules/.bin/release-it
 ```
 
-[badge-release-url]: https://github.com/uploadcare/uploadcare-ckeditor/releases
 [release-it]: https://github.com/webpro/release-it
+[badge-release-img]: https://img.shields.io/github/release/uploadcare/uploadcare-release-it.svg
+[badge-release-url]: https://github.com/uploadcare/uploadcare-release-it/releases
+[badge-stack-img]: https://img.shields.io/badge/tech-stack-0690fa.svg?style=flat
+[badge-stack-url]: https://stackshare.io/uploadcare/stacks/
