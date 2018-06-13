@@ -4,5 +4,5 @@
   "createArchives": false,
   "deployRelease": false,
   "deployDemo": false,
-  "dryRun": true
+  "dryRun": false
 }
