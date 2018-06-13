@@ -8,6 +8,7 @@
 
 This is a tool used to deploy our projects.
 
+[![NPM version][npm-img]][npm-url]
 [![GitHub release][badge-release-img]][badge-release-url]&nbsp;
 [![Uploadcare stack on StackShare][badge-stack-img]][badge-stack-url]
 
@@ -70,3 +71,5 @@ To start deploy
 [badge-release-url]: https://github.com/uploadcare/uploadcare-release-it/releases
 [badge-stack-img]: https://img.shields.io/badge/tech-stack-0690fa.svg?style=flat
 [badge-stack-url]: https://stackshare.io/uploadcare/stacks/
+[npm-img]: http://img.shields.io/npm/v/uploadcare-release-it.svg
+[npm-url]: https://www.npmjs.org/package/uploadcare-release-it
