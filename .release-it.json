@@ -1,9 +1,8 @@
 {
-  "buildCommand": "npm run build",
   "githubRelease": true,
-  "createArchives": false,
   "npmPublish": true,
+  "createArchives": false,
   "deployRelease": false,
   "deployDemo": false,
-  "dryRun": false
+  "dryRun": true
 }
