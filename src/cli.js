@@ -9,7 +9,7 @@ const deployRelease = require('./deployRelease')
 const deployDemo = require('./deployDemo')
 
 const defaultOptions = {
-  archiveName: 'uploadcare-plugin',
+  archiveName: undefined,
   buildCommand: 'npm run build',
   githubRelease: true,
   npmPublish: true,
@@ -19,6 +19,7 @@ const defaultOptions = {
 }
 
 const optionsPath = path.resolve(process.cwd(), '.release-it.json')
+const packagePath = path.resolve(process.cwd(), 'package.json')
 
 const options = fs.existsSync(optionsPath)
   ? Object.assign(defaultOptions, JSON.parse(fs.readFileSync(optionsPath)))
@@ -26,6 +27,13 @@ const options = fs.existsSync(optionsPath)
 
 if (options.githubRelease || options.deployRelease) {
   options['assetsPath'] = archiveDist(options.archiveName)
+}
+
+if (!options.archiveName) {
+  const pkg = JSON.parse(fs.readFileSync(packagePath))
+  const archiveName = pkg.name.replace('@uploadcare/', 'uploadcare-')
+
+  options[archiveName] = archiveName
 }
 
 ;(async () => {
