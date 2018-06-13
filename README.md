@@ -6,7 +6,7 @@
          alt="">
 </a>
 
-This is a tool used to deploy our projects.
+This is a set of scripts used to release our open-source projects. It is based on [`release-it`][release-it] and [`gh-pages`][gh-pages] libraries.
 
 [![NPM version][npm-img]][npm-url]
 [![GitHub release][badge-release-img]][badge-release-url]&nbsp;
@@ -73,3 +73,4 @@ To start deploy
 [badge-stack-url]: https://stackshare.io/uploadcare/stacks/
 [npm-img]: http://img.shields.io/npm/v/uploadcare-release-it.svg
 [npm-url]: https://www.npmjs.org/package/uploadcare-release-it
+[gh-pages]: https://github.com/tschaub/gh-pages
