@@ -1,0 +1,8 @@
+{
+  "githubRelease": true,
+  "npmPublish": true,
+  "createArchives": false,
+  "deployRelease": false,
+  "deployDemo": false,
+  "dryRun": false
+}

@@ -1,0 +1,13 @@
+{
+  "extends": ["uploadcare"],
+  "plugins": [],
+  "parserOptions": {
+    "ecmaVersion": 8,
+    "sourceType": "module"
+  },
+  "env": { "node": true },
+  "rules": {
+    "require-jsdoc": "off",
+    "no-console": "off"
+  }
+}
