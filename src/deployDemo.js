@@ -1,9 +1,7 @@
 const ghpages = require('gh-pages')
 const path = require('path')
 
-module.exports = function(
-  src = ['index.html', 'demo/**', 'dist/**'],
-) {
+module.exports = function(src) {
   const baseDir = path.resolve(process.cwd())
 
   return new Promise((res, rej) =>

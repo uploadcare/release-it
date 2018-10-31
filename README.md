@@ -50,7 +50,9 @@ Possible options:
   "npmPublish": true,
   "deployRelease": true,
   "deployDemo": true,
-  "dryRun": false
+  "dryRun": false,
+  "demoSrc": ["index.html", "demo/**", "dist/**"],
+  "releaseSrc": "./dist/",
 }
 ```
 

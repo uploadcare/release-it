@@ -16,6 +16,8 @@ const defaultOptions = {
   deployRelease: true,
   deployDemo: true,
   dryRun: false,
+  demoSrc: ['index.html', 'demo/**', 'dist/**'],
+  releaseSrc: './dist/',
 }
 
 const optionsPath = path.resolve(process.cwd(), '.release-it.json')
@@ -40,11 +42,13 @@ if (!options.archiveName) {
   await startReleaseIt(options)
 
   if (options.deployDemo) {
-    await deployDemo()
+    console.log('Deploying demo...')
+    await deployDemo(options.demoSrc)
   }
 
   if (options.deployRelease) {
-    await deployRelease()
+    console.log('Deploying release...')
+    await deployRelease(options.releaseSrc)
   }
 
   console.log('All done.')

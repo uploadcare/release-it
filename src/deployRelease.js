@@ -1,7 +1,7 @@
 const ghpages = require('gh-pages')
 const path = require('path')
 
-module.exports = function(src = './dist/') {
+module.exports = function(src) {
   const distPath = path.resolve(process.cwd(), src)
 
   console.log(distPath)
